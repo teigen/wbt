@@ -1,4 +1,4 @@
-An little experiment writing a web interface to sbt
+A little experiment writing a web interface to sbt
 Its implemented as a sbt-processor using lift, and currently supports:
 
 - browsing your project
