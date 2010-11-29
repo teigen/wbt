@@ -1,0 +1,23 @@
+An little experiment writing a web interface to sbt
+Its implemented as a sbt-processor using lift, and currently supports:
+
+- browsing your project
+- executing available tasks (with autocompletion)
+- showing colored output from task execution (live, using comet)
+- exit (putting you back into your sbt session)
+- reload (if you change the project definition file, sbt needs to reload to pick up the changes)
+
+to install, start sbt and issue the following commands
+update
+*wbt is wbt processor 0.1
+
+Installed and ready to go, start it by writing wbt in a sbt session.
+The web interface will be available at port 9999
+
+enjoy
+
+(it currently uses sbt 0.7.5.RC0, if you use a different version
+you need to change the sbt version in build.properties and rebuild it)
+
+
+
